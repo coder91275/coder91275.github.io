@@ -1,0 +1,87 @@
+body{
+    background-color: #ffffff;
+    border-color: #000000;
+}
+body, html {
+    height: 100%;
+}
+.name {
+    text-align: center;
+    border: solid 
+}
+
+.taiya img {
+  width: 100%;
+}
+.taiya{
+  width: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('images/taiya/seablue2.jpg');
+  opacity: 0.5;
+  
+}
+#title{;
+    font-family: 'Great Vibes', cursive;
+    letter-spacing: 20px;
+    word-spacing: 1em;
+    font-size:50px;
+    line-height: 2em;
+    text-shadow: -1px -2px #666666;
+}
+#title{
+    font-family: 'Dancing Script', cursive;
+}
+
+li{
+    display: inline-block;
+    background-color: #000000;
+    padding: 20px;
+}
+ul{
+    margin-left: 0px;
+    background-color: #ffffff; 
+    text-align: center;
+    color:#ffffff;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+a:link{
+    color:#cc0202;
+}
+a:visted{
+    color:#ff0000;
+}
+a:hover{
+    color:#000000;
+}
+a:active{
+    color:#efefef;
+}
+.container{
+    background-color: #efefef;
+    display: flex;
+    margin:10px;
+    padding: 10px;
+    text-align: center;
+    color:#ffffff;    
+}
+.pictures { 
+}
+ 
+.upper,.lower{
+    border: solid 10px;
+    color:;
+    font-size: 20px;
+    background-color: #efefef;  
+}
+.upper{
+    padding:10px
+}
+
+
