@@ -1,87 +1,217 @@
-body{
-    background-color: #ffffff;
-    border-color: #000000;
-}
-body, html {
+body,html{
+    width: 98%;
+    margin: 0 auto;
     height: 100%;
+    text-align: justify;
+    align-content: left;
+    font-size: 25px;  
+    font-family: 'Roboto', sans-serif;
 }
-.name {
-    text-align: center;
-    border: solid 
+.body_alternative{
+    background-color: beige;
 }
 
-.taiya img {
-  width: 100%;
+.container{
+    background-image:url(images/ka_allblack1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-.taiya{
-  width: 100%;
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-image: url('images/taiya/seablue2.jpg');
-  opacity: 0.5;
-  
-}
-#title{;
-    font-family: 'Great Vibes', cursive;
-    letter-spacing: 20px;
-    word-spacing: 1em;
-    font-size:50px;
-    line-height: 2em;
+
+<!--KetaiyaAveria header font-->
+h1{
+    font-size: 50px;
+    word-spacing: 0.1em;  
+    color: #7a6652;
     text-shadow: -1px -2px #666666;
-}
-#title{
-    font-family: 'Dancing Script', cursive;
+    text-transform: uppercase;
+    text-align: left;
+    margin:25px;
+    padding:1px;
 }
 
-li{
-    display: inline-block;
-    background-color: #000000;
-    padding: 20px;
+
+<!--Navigation font-->
+.nav1{
+    text-align: justify;
+    font-family: 'Great Vibes', cursive;
+    font-size:28px;
+    margin:25px;
+    padding:1px;
 }
-ul{
-    margin-left: 0px;
-    background-color: #ffffff; 
-    text-align: center;
-    color:#ffffff;
-    padding-left: 5px;
-    padding-right: 5px;
+
+.body, .nav {
+    display: flex;
 }
-a{
+
+.body_alternative body header{
+    border: solid #665544;
+    border-radius: 10px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px
+    margin-top: 15px;
+    width:15%;
+    background-color: crimson;
+    
+}
+
+#name{
+    color: #7a6652;
+}
+
+<!--Index page - Makeup Specialist-->
+h5{
+    text-align: left;
+    margin: 50px;
+    padding: 1px;
+    font-family: 'Great Vibes', cursive;
+    width: 25%;
+    font-size: 40px;
     color: #ffffff;
+    letter-spacing: 1.5;
+}
+
+<!--BOX SIZES - Use px, percent (size of box is relative to size of browser window of if in another box, the size of that box), or ems |  -->
+
+.body{
+    width:100%;
+    height: 100%;
+    margin: 10px;
+}
+
+.container{
+    display: flex;
+    width:100%;
+    height: 100%;  
+}
+
+<!-- Index page Enter id-->
+#enter{
+    border: solid 5px #665544;
+    width: 30%;
+    color: #665544;
+    text-align: center;
+    margin-left: 35px;
+    font-size: 25px
+}
+
+.nav{
+    display:flex;
+    width: 30%;
+}
+
+#about{
+    width:100%;
+    display:flex;
+    font-weight: bold;
+}
+
+#about p{
+    font-family: 'Roboto', sans-serif;
+    color: #665544;
+    font-size:16px;
+    text-align: left;
+}
+
+.main_content{
+    display: inline;
+    background-color: #665544; 
+    text-align: left;
+}
+.main_content img{
+    width: 80%;
+    background-color: #000000;
+    vertical-align: top;
+}
+
+<!--Makeover page-->
+.main_content p{
+    font-family: 'Roboto', sans-serif;
+    color: #665544;
+    font-size:16px;
+}
+
+<!--About page - hello paragraph-->
+#welcome{
+    font-weight: bold;
+}
+
+.transformation{
+    background-color: #ffffff;
+    display: flex;
+    border: solid #665544 2px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.transformation img{
+    width: auto;
+    height:350px;
+}
+
+.events{
+    background-color: #ffffff;
+    display: flex;
+    border: solid #665544 2px
+}
+
+.events img{
+    width: auto;
+    height:350px;
+}
+
+.looks{
+    background-color: #ffffff;
+    display: flex;
+    border: solid #665544 2px;
+}
+
+.looks img{
+    width: auto;
+    height:350px;
+}
+
+<!--About page paragraph font-->
+p{
+    text-align: left;
+    margin: 20px;
+    font-size:2px;
+    vertical-align: top;
+    font-family: 'Great Vibes', cursive;
+    font-weight: 100;
+}
+
+p:first-letter{
+    font-size: 150%;
+}
+
+a:link{
+    color:red;
     text-decoration: none;
 }
-a:link{
-    color:#cc0202;
-}
-a:visted{
-    color:#ff0000;
-}
+a:visited{
+    color: #665544;}
 a:hover{
-    color:#000000;
+    color:darkgray;
+    text-decoration: underline;
 }
 a:active{
-    color:#efefef;
+    color:blanchedalmond;}
+
+input{
+    padding: 6px 12px 6px 12px;
+    border: 1px double #665544;
+    color: #ffffff;
 }
-.container{
-    background-color: #efefef;
-    display: flex;
-    margin:10px;
-    padding: 10px;
-    text-align: center;
-    color:#ffffff;    
-}
-.pictures { 
-}
- 
-.upper,.lower{
-    border: solid 10px;
-    color:;
-    font-size: 20px;
-    background-color: #efefef;  
-}
-.upper{
-    padding:10px
-}
+
+input.submit:hover{
+    background-color: #665544;}
+input.submit:active{
+    background-color: darkgray;}
+input.text{
+    color: #cccccc;}
+<!--Occurs when a browser discovers that the user is ready to interact with an element on the page-->
+input.text:focus{
+    color: #665544;}
+
+
 
 

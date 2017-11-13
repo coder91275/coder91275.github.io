@@ -1,29 +1,42 @@
 <!Doctype html>
 <html>
-   <head>
-       <title>KetaiyaAveria</title>
-       <link rel="stylesheet" type="text/css" href="css/style.css" />
-       <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
-       <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
-       
-   </head> 
-   
-   <body>
-<!-- TITLE and NAV-->
-        <div class="name">
-            <a href="index.html"><h1 id="title">KetaiyaAveria</h1></a>
-        </div>
-        <div id="top">
-             <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li> 
-              <li><a href="editorials.html">Editorials</a></li>
-               <li><a href="events.html">Events</a></li>
-               <li><a href="testimonials.html">Testimonials</a></li>
-              <li><a href="bookings.html">Bookings</a></li> 
-           </ul>
-       </div>
-     
-  </body>
-  
+    <head>
+        <link href="css/style.css" type="text/css" rel="stylesheet" >
+        <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Poiret+One|Roboto" rel="stylesheet">  
+    </head>
+    
+    <body>
+        <div class="body_alternative">
+            <div class="body">
+                <div class="header">
+                    <h1>Ketaiya Averia</h1>
+                    <div class="nav1">
+                        <ul><a href="index.html">Home</a></ul>
+                        <ul><a href="about.html">About</a></ul>
+                        <ul><a href="testimonials.html">Makeovers</a></ul>
+                        <ul><a href="contact.html">Contact</a></ul>
+                    </div>
+                </div> 
+    <!--Main Content -->
+
+                <div class="main_content">                
+                    <form action="http://www.ketaiyaaveria.com/review.php" method="get">
+<!--The FIELD SET Contains ALL the FIELDS -->
+                        <fieldset>
+                            <legend>Contact Details:</legend> 
+                            <label>Name:<br />
+                                <input type="text" name="name"/>
+                            </label><br />
+                            <label>Phone:<br />
+                                <input type="text" name="telephone"/>
+                            </label><br />
+                            <label>Email:<br />
+                                <input type="text" name="email" maxlength="100" />
+                            </label><br />
+                         </fieldset><br />
+                    </form>
+                </div>
+            </div>
+        </div>        
+    </body>
 </html>
