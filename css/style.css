@@ -17,7 +17,7 @@ body,html{
     background-size: cover;
 }
 
-<!--KetaiyaAveria header font-->
+/*KetaiyaAveria header font*/
 h1{
     font-size: 50px;
     word-spacing: 0.1em;  
@@ -30,7 +30,7 @@ h1{
 }
 
 
-<!--Navigation font-->
+/*Navigation font*/
 .nav1{
     text-align: justify;
     font-family: 'Great Vibes', cursive;
@@ -58,7 +58,7 @@ h1{
     color: #7a6652;
 }
 
-<!--Index page - Makeup Specialist-->
+/*Index page - Makeup Specialist*/
 h5{
     text-align: left;
     margin: 50px;
@@ -70,7 +70,7 @@ h5{
     letter-spacing: 1.5;
 }
 
-<!--BOX SIZES - Use px, percent (size of box is relative to size of browser window of if in another box, the size of that box), or ems |  -->
+</*BOX SIZES - Use px, percent (size of box is relative to size of browser window of if in another box, the size of that box), or ems >*/
 
 .body{
     width:100%;
@@ -84,7 +84,7 @@ h5{
     height: 100%;  
 }
 
-<!-- Index page Enter id-->
+/* Index page Enter id*/
 #enter{
     border: solid 5px #665544;
     width: 30%;
@@ -123,7 +123,7 @@ h5{
     vertical-align: top;
 }
 
-<!--Makeover page-->
+/*Makeover page*/
 .main_content p{
     font-family: 'Roboto', sans-serif;
     color: #665544;
@@ -169,7 +169,7 @@ h5{
     height:350px;
 }
 
-<!--About page paragraph font-->
+/*About page paragraph font*/
 p{
     text-align: left;
     margin: 20px;
@@ -196,21 +196,7 @@ a:hover{
 a:active{
     color:blanchedalmond;}
 
-input{
-    padding: 6px 12px 6px 12px;
-    border: 1px double #665544;
-    color: #ffffff;
-}
 
-input.submit:hover{
-    background-color: #665544;}
-input.submit:active{
-    background-color: darkgray;}
-input.text{
-    color: #cccccc;}
-<!--Occurs when a browser discovers that the user is ready to interact with an element on the page-->
-input.text:focus{
-    color: #665544;}
 
 
 
