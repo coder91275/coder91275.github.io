@@ -6,9 +6,9 @@
     </head>
     
     <body>
-        <div class="body_alternative">
+        <div class="contact_body_alternative">
             <div class="body">
-                <div class="header">
+                <div class="contact_header">
                     <h1>Ketaiya Averia</h1>
                     <div class="nav1">
                         <ul><a href="index.html">Home</a></ul>
@@ -19,8 +19,58 @@
                 </div> 
     <!--Main Content -->
 
-                <div class="main_content">                
-            
+                <div class="contact_main_content"> 
+                    <!--Name and submit -->
+
+                        <form class="contact_forms" action="/action_page.php">
+                           <fieldset class="contact_info"><br />
+                                <legend class="personal_info"> Personal Information:</legend>
+                                First name: <input type="text" name="firstname"><br />
+                                Last name: <input type="text" name="lastname"><br />
+                                Phone number:
+                                <input type=”text” name=”phone” ><br />
+                                E-mail:
+                                <input type="email" name="email"><br /><br />
+
+                                <input type="radio" name="gender" value="female" checked> Female<br />
+                                <input type="radio" name="gender" value="male"> Male<br />
+                                <input type="radio" name="gender" value="other"> Other<br /><br />
+                                Date of birth:
+                                <input type="date" name="bday"><br /><br />    
+                            </fieldset>   
+                        
+                        <form>
+                            <fieldset><br />
+
+                                <legend class="event_info">Event Information</legend> 
+                                <input type="checkbox" name="event1" value="wedding">Wedding<br />
+                                <input type="checkbox" name="event2" value="prom">Prom<br />
+
+                                <input type="checkbox" name="event3" value="holiday">Holiday<br />
+
+                                <input type="checkbox" name="event4" value="treat">Just for Me!<br /><br />
+
+                                Consultation date:
+
+                                <input type="date" name="consultationdate"><br />
+
+                                Time:
+                                <input type="time" name="usr_time"><br /><br />            
+
+                                Event date:
+                                <input type="date" name="eventdate"><br />
+
+                                Time:
+                                <input type="time" name="usr_time">
+
+                            </fieldset>
+                           </form>
+                            <fieldset>
+
+                                <input type="submit" value="Submit">
+                                <input type="reset">
+                            </fieldset>
+                    </form>
                 </div>
             </div>
         </div>        

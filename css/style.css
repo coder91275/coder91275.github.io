@@ -7,8 +7,8 @@ body,html{
     font-size: 25px;  
     font-family: 'Roboto', sans-serif;
 }
-.body_alternative{
-    background-color: beige;
+.contact_body_alternative{
+    background-color: #ffffe6;
 }
 
 .container{
@@ -49,9 +49,7 @@ h1{
     -moz-border-radius:10px;
     -webkit-border-radius:10px
     margin-top: 15px;
-    width:15%;
-    background-color: crimson;
-    
+    width:15%;    
 }
 
 #name{
@@ -184,7 +182,7 @@ p:first-letter{
 }
 
 a:link{
-    color:red;
+    color:#665544;
     text-decoration: none;
 }
 a:visited{
@@ -194,7 +192,30 @@ a:hover{
     text-decoration: underline;
 }
 a:active{
-    color:blanchedalmond;}
+    color:#cc0000;}
+
+.contact_forms{
+    display: flex;
+    font-size: 23px;
+    width:
+}
+
+.contact_header{
+    width: 25%;
+}
+.personal_info{
+    font-family: 'Great Vibes', cursive;
+    font-size: 35px;
+    background-color: #665544;
+    color: #ffffff;
+}
+.event_info{
+    font-family: 'Great Vibes', cursive;
+    font-size: 35px;
+    background-color: #665544;
+    color: #ffffff;
+}
+
 
 
 
