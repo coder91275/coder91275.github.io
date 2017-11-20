@@ -1,0 +1,127 @@
+
+Group - CSS
+
+body, html {
+    width: 98%;  
+}
+
+.index_homepage{
+    background-color: #2CC9C6;
+    background-image: url(map1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.index_header{
+    color: #ffffff;
+    padding-left: 50px;
+    word-spacing: 2px;
+    letter-spacing: 10px;
+    font-size: 32px;
+}
+.header{
+    background-color: #2CC9C6;
+    padding-left: 50px;
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 2px;
+    padding-left: 50px;
+    color: #ffffff;
+    word-spacing: 2px;
+    letter-spacing: 10px;
+    font-size: 32px;
+}
+
+.index_nav{
+     text-align: left;
+}
+
+.index_nav p{
+    display: inline-block;
+   
+    font-family: 'Source Serif Pro', serif;
+    font-size: 22px;
+    color: #ffffff;
+    padding-left: 50px;
+}
+
+.nav{
+    
+    text-align: left;
+    color: #D9B093;
+    background-color: #000000;
+    padding-left: 50px;
+}
+
+.nav p{
+    display: inline-block;
+    padding: 20px;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 22px;
+}
+
+.index_body{
+    margin-top: 15%;
+    text-align: left;
+    font-family: 'Source Serif Pro', serif;
+    font-size: 22px;
+    line-height: 6px;
+    padding-left: 50px;
+}
+
+/* Mary C Smith, Yellow Group */
+
+.body {
+    text-align: left;
+    color: #000000;
+    font-size: 25 px;
+    padding: 10px;
+    /*background-color: #FFFFFF;*/ 
+}
+/* Main title Section */
+
+container {
+    text-align: center;
+}
+
+img {
+    float: left;
+    width: 30%;
+    margin: 25px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #ffffff;
+}
+
+h4 {    
+    clear: left;
+    margin-top: 50px;
+    text-align: center;    
+}
+.container{
+    padding: 20px;  
+}
+
+a{
+    text-decoration: none;
+    color: #F5D3BA;
+    text-align: left;
+}
+a:hover{
+    text-decoration: underline;
+    color: #EFC7AB;
+}
+a:visited{
+    color: #2CC9C6;
+}
+
+.p a{
+    color: #21989C;
+}
+
+
+
+
+
+
+
+ 
